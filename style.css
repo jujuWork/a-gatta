@@ -5,6 +5,13 @@ Description: Website Accounts
 Version: 1.0
 */
 
+:root {
+  --bg-color: #fafafa;
+  --text-color: #1d242b;
+  --hover-color: #c7eeff;
+  --task-color: #0077c0;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -13,4 +20,35 @@ Version: 1.0
 
 body {
   max-width: 3440px;
+  background-color: var(--bg-color);
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+li {
+  list-style: none;
+}
+
+/**************** MAIN FONT ****************/
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**************** LOGO FONT ****************/
+@font-face {
+  font-family: "BodoniModa";
+  src: url("./assets/fonts/BodoniModa-Regular.woff2") format("woff2"),
+    url("./assets/fonts/BodoniModa-Regular.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
