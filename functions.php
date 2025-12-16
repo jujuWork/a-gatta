@@ -2,10 +2,19 @@
 
 function my_styles()
 {
+    $theme_version = '1.0.0';
+    $css_path = get_template_directory_uri() . '/assets/css';
+
+    // STYLE STYLES
+    wp_enqueue_style(
+        'theme-style-style',
+        get_template_directory_uri() . '/style.css'
+    );
+
     // MAIN STYLES
     wp_enqueue_style(
         'theme-main-style',
-        get_template_directory_uri() . '/style.css'
+        get_template_directory_uri() . '/assets/css/main.css'
     );
 
     // HEADER STYLES
@@ -21,9 +30,15 @@ function my_styles()
     );
 
     // TOP-PAGE STYLES
-    // wp_enqueue_style(
-    //     'theme-top-page-style',
-    //     get_template_directory_uri() . '/assets/css/a_gatta.css'
-    // );
+    wp_enqueue_style(
+        'theme-content-style',
+        get_template_directory_uri() . '/assets/css/content.css'
+    );
+
+    //NAVIGATION STYLE
+    wp_enqueue_style(
+        'theme-navigation-style',
+        get_template_directory_uri() . '/assets/css/nav.css'
+    );
 }
 add_action('wp_enqueue_scripts', 'my_styles');

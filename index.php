@@ -1,5 +1,7 @@
 <?php
 
-get_header();
+// get_header();
 
-get_footer();
+include get_template_directory() . '/main.php';
+
+// get_footer();
