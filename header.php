@@ -11,6 +11,3 @@
 
 <body>
     <header>HEADER</header>
-</body>
-
-</html>
