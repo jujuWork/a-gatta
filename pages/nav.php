@@ -1,8 +1,8 @@
 <nav>
-    <a href="#home">
-        <h1>SPONAGO</h1>
-    </a>
     <ul>
+        <a href="#home">
+            <h1>SPONAGO</h1>
+        </a>
         <li>
             <a href="#forum">
                 <img src="<?php echo htmlspecialchars(get_template_directory_uri() . './assets/icons/forum.png') ?>" alt="forum">

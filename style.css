@@ -7,9 +7,9 @@ Version: 1.0
 
 :root {
   --bg-color: #fafafa;
+  --bg2-color: #0077c0;
   --text-color: #1d242b;
   --hover-color: #c7eeff;
-  --task-color: #0077c0;
 }
 
 * {
@@ -20,8 +20,9 @@ Version: 1.0
 
 body {
   max-width: 3440px;
-  background-color: var(--bg-color);
+  background-color: var(--hover-color);
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 a {
