@@ -6,7 +6,7 @@ main {
   align-items: center;
   justify-content: center;
 
-  .card {
+  .forum {
     background-color: transparent;
     color: var(--text-color);
     height: 100%;
@@ -21,7 +21,7 @@ main {
     padding: 0 10px;
   }
 
-  .card p {
+  .forum p {
     cursor: pointer;
     height: 100%;
     flex: 1;
@@ -38,18 +38,24 @@ main {
     justify-content: center;
   }
 
-  .card p span {
+  .forum p span {
     min-width: 20em;
     transform: rotate(-90deg);
     text-align: center;
     transition: all 0.5s;
   }
 
-  .card p:hover {
+  .forum p:hover {
     flex: 6;
   }
 
-  .card p:hover span {
+  .forum p:hover span {
     transform: rotate(0deg);
+  }
+
+  .forum p .forum__first-item {
+    background: url("../icons/forum/o-dan.png") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
   }
 }
