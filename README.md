@@ -137,7 +137,13 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
           color: #000;
         }
 ```
-7. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
+7. CSSでクラスを作成する際は、BEMメソッドに従いましょう。
+   以下のリンクから進めてください。
+
+    [Link text](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc)
+    -``` https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc ```
+
+8. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
 
 ```
 例:
@@ -160,4 +166,5 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
+
 
