@@ -32,7 +32,7 @@ function my_styles()
     // TOP-PAGE STYLES
     wp_enqueue_style(
         'theme-content-style',
-        get_template_directory_uri() . '/assets/css/content.css'
+        get_template_directory_uri() . '/assets/css/forum.css'
     );
 
     //NAVIGATION STYLE

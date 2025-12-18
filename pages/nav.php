@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <a href="#home">
-            <h1>SPONAGO</h1>
+            <h1>スポNAGO</h1>
         </a>
         <li>
             <a href="#forum">

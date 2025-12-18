@@ -20,7 +20,7 @@ Version: 1.0
 
 body {
   max-width: 3440px;
-  background-color: var(--hover-color);
+  /* background-color: var(--hover-color); */
   font-family: "Roboto";
   scroll-behavior: smooth;
 }

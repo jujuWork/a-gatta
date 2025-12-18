@@ -20,7 +20,7 @@
             <?php include get_template_directory() . '/header.php' ?>
         </div>
         <div class="content">
-            <?php include get_template_directory() . '/pages/content.php' ?>
+            <?php include get_template_directory() . '/pages/forum.php' ?>
         </div>
         <div class="footer">
             <?php include get_template_directory() . '/footer.php' ?>
