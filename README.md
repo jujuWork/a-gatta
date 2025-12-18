@@ -142,8 +142,16 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 
     [Link text](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc)
     -``` https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc ```
+```
+  例：
+    <section class ="card"
+      <div class="card__container">
+        <span class="card__container-items">Items</span>
+      </div>
+    </section>
+```
 
-8. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
+9. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
 
 ```
 例:
@@ -166,5 +174,6 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
+
 
 
