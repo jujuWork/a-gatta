@@ -66,7 +66,9 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 
 1. ボックスを作る時は、ブラウザのレスポンシブを良くするために Flexbox か Grid を使ってください。
 
-2 .サイトをスタイリングする時は、できるだけシンプルな CSS か SCSS を使い、ファイル名も分かりやすく分けてください。
+- CSS Grid をメインのページレイアウトとして使用する場合、グリッド構成を管理するために **main.php** を作成する必要があります。
+
+2. サイトをスタイリングする時は、できるだけシンプルな CSS か SCSS を使い、ファイル名も分かりやすく分けてください。
 
 ```
   例：
@@ -124,7 +126,8 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 
 ```
 
-6. CSSでは、タグを直接指定する方法と、各タグにクラスを付けて指定する方法の両方があります。どちらのコーディングスタイルでも問題ありませんが、できるだけ具体的に指定するようにしましょう。
+6. CSS では、タグを直接指定する方法と、各タグにクラスを付けて指定する方法の両方があります。どちらのコーディングスタイルでも問題ありませんが、できるだけ具体的に指定するようにしましょう。
+
 ```
   例：
   ( 特定のタグをターゲットにして指定します。)
@@ -137,11 +140,12 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
           color: #000;
         }
 ```
-7. CSSでクラスを作成する際は、BEMメソッドに従いましょう。
+
+7. CSS でクラスを作成する際は、BEM メソッドに従いましょう。
    以下のリンクから進めてください。
 
-    [Link text](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc)
-    -``` https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc ```
+   [Link text](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc) -`https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc`
+
 ```
   例：
     <section class ="card"
@@ -174,6 +178,3 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
-
-
-

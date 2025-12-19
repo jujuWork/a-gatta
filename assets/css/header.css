@@ -39,3 +39,9 @@ header {
     align-content: center;
   }
 }
+
+@media (max-width: 1024px) {
+  .header__title-item {
+    display: none;
+  }
+}

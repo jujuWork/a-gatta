@@ -50,3 +50,9 @@ nav {
     margin-right: 10px;
   }
 }
+
+@media (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+}
