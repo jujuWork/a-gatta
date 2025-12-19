@@ -1,9 +1,9 @@
 <nav>
     <ul>
         <li>
-            <a href="#forum">
+            <a href="#home">
                 <img src="<?php echo htmlspecialchars(get_template_directory_uri() . './assets/icons/forum.png') ?>" alt="forum">
-                Forum
+                Home
             </a>
         </li>
         <li>

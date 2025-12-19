@@ -23,16 +23,18 @@ main {
   }
 
   .product__container-nav > ul {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    cursor: pointer;
   }
 
-  .product__container-nav > li {
+  .product__container-nav > ul > li {
+    border: 1px solid red;
     width: 100%;
+    text-align: center;
   }
 
   .product__container-item {
@@ -41,7 +43,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid orange;
     scroll-snap-align: center;
   }
 }
