@@ -11,18 +11,18 @@
 </head>
 
 <body <?php body_class(); ?>>
-
     <div class="grid_container">
-        <div class="nav">
-            <?php include get_template_directory() . '/pages/nav.php' ?>
-        </div>
-        <div class="header">
+        <div class="grid_item header">
             <?php include get_template_directory() . '/header.php' ?>
         </div>
-        <div class="content">
-            <?php include get_template_directory() . '/pages/forum.php' ?>
+        <div class="grid-item nav">
+            <?php include get_template_directory() . '/pages/nav.php' ?>
         </div>
-        <div class="footer">
+        <div class="grid-item content">
+            <?php include get_template_directory() . '/pages/product.php' ?>
+        </div>
+        <div class="grid-item footer">
             <?php include get_template_directory() . '/footer.php' ?>
         </div>
+    </div>
     </div>

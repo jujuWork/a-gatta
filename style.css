@@ -20,9 +20,10 @@ Version: 1.0
 
 body {
   max-width: 3440px;
-  /* background-color: var(--hover-color); */
+  height: 100%;
   font-family: "Roboto";
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 a {

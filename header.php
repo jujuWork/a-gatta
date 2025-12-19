@@ -1,11 +1,10 @@
 <header>
-    <h2>スポNAGO A型 チーム</h2>
-    <p>
-        スポナゴA型就労継続支援のポータルサイト
-    </p>
-    <p>
-        共創をテーマにこのサイトは運営しています。<br>
-        互いに助け合い、寄り添って問題解決・改善を行いましょう。<br>
-        サイトに関して不便なことがありましたら、支援員にご相談ください。
-    </p>
+    <div class="header__title">
+        <h2>スポNAGO A型 チーム</h2>
+        <div class="header__title-item">
+            <a href="#user">
+                <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/user.png') ?>" alt="User">
+            </a>
+        </div>
+    </div>
 </header>

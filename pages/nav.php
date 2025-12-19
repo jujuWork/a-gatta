@@ -1,8 +1,5 @@
 <nav>
     <ul>
-        <a href="#home">
-            <h1>スポNAGO</h1>
-        </a>
         <li>
             <a href="#forum">
                 <img src="<?php echo htmlspecialchars(get_template_directory_uri() . './assets/icons/forum.png') ?>" alt="forum">
@@ -38,11 +35,6 @@
             <a href="#case">
                 <img src="<?php echo htmlspecialchars(get_template_directory_uri() . './assets/icons/case.png') ?>" alt="case">
                 Case Management</a>
-        </li>
-        <li>
-            <a href="#user">
-                <img src="<?php echo htmlspecialchars(get_template_directory_uri() . './assets/icons/user.png') ?>" alt="user">
-                User</a>
         </li>
     </ul>
 </nav>

@@ -1,5 +1,5 @@
 <footer>
-    FOOTER
+    Footer
 </footer>
 
 
