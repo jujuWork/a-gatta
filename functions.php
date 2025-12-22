@@ -1,10 +1,8 @@
 <?php
+////////////////////////// CSS STYLES //////////////////////////
 
 function my_styles()
 {
-    $theme_version = '1.0.0';
-    $css_path = get_template_directory_uri() . '/assets/css';
-
     // STYLE STYLES
     wp_enqueue_style(
         'theme-style-style',
@@ -42,3 +40,15 @@ function my_styles()
     );
 }
 add_action('wp_enqueue_scripts', 'my_styles');
+
+
+////////////////////////// JAVASCRIPTS //////////////////////////
+
+function my_theme_scripts()
+{
+    //NAV SCRIPTS
+    wp_enqueue_script(
+        'my-nav-js',
+        get_template_directory_uri() . '/assets/js/nav.js'
+    );
+}

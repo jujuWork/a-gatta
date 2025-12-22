@@ -1,4 +1,4 @@
-<main>
+<main id="content-display">
     <div class="product__container">
         <div class="product__container-nav">
             <ul>
