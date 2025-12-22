@@ -19,10 +19,9 @@
             <?php include get_template_directory() . '/pages/nav.php' ?>
         </div>
         <div class="grid-item content">
-            <?php include get_template_directory() . '/pages/product.php' ?>
+            <?php include get_template_directory() . '/pages/home.php' ?>
         </div>
         <div class="grid-item footer">
             <?php include get_template_directory() . '/footer.php' ?>
         </div>
-    </div>
     </div>
