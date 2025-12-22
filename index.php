@@ -2,7 +2,6 @@
 
 // get_header();
 
-include get_template_directory() . '/index.php';
-// include get_template_directory() . '/pages/home.php';
+include get_template_directory() . '/main.php';
 
 // get_footer();
