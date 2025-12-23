@@ -15,13 +15,10 @@
         <div class="grid_item header">
             <?php get_header(); ?>
         </div>
-        <div class="grid-item nav">
-            <?php get_template_part('pages/nav') ?>
+        <div class="grid_item content">
+            <?php get_template_part('pages/home'); ?>
         </div>
-        <div class="grid-item content">
-            <?php get_template_part('pages/home') ?>
-        </div>
-        <div class="grid-item footer">
+        <div class="grid_item footer">
             <?php get_footer(); ?>
         </div>
     </div>
