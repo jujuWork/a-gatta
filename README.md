@@ -59,7 +59,19 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 ```
 
 5. 大きい背景画像を読み込む際は、PNG や JPG ではなく、.webp 形式に変換して使用することをおすすめします。
+6. HTMLファイルでページをリンクする際は、本番サーバーに公開する前の安全対策として、以下の関数を使うのがおすすめです。
+  - esc_url()：href や src 属性でURLを出力する場合に使用します。
+  - esc_attr()：alt、title、class など、URL以外の属性に使用します。
 
+```
+例：
+  <li>
+      <a href="<?php echo esc_url( home_url( '/production' ) ); ?>">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/production.png' ); ?>" 
+               alt="<?php echo esc_attr( 'production' ); ?>">
+      </a>
+  </li>
+```
 ---
 
 ## CSS コーディング
@@ -178,3 +190,5 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
+
+
