@@ -16,10 +16,10 @@
             <?php get_header(); ?>
         </div>
         <div class="grid-item nav">
-            <?php include get_template_directory() . '/pages/nav.php' ?>
+            <?php get_template_part('pages/nav') ?>
         </div>
         <div class="grid-item content">
-            <?php include get_template_directory() . '/pages/home.php' ?>
+            <?php get_template_part('pages/home') ?>
         </div>
         <div class="grid-item footer">
             <?php get_footer(); ?>

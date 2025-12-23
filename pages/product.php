@@ -1,8 +1,8 @@
 <?php
 /* Template Name: Production Template */
-
+include get_template_directory() . '/main.php';
 ?>
-<main class="nav">
+<!-- <main class="nav">
     <div class="product__container">
         <div class="product__container-nav">
             <ul>
@@ -49,4 +49,4 @@
             </div>
         </div>
     </div>
-</main>
+</main> -->
