@@ -62,7 +62,6 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 6. HTMLファイルでページをリンクする際は、本番サーバーに公開する前の安全対策として、以下の関数を使うのがおすすめです。
   - esc_url()：href や src 属性でURLを出力する場合に使用します。
   - esc_attr()：alt、title、class など、URL以外の属性に使用します。
-  - esc_html()：タグの中にテキストを表示する場合に使用します。
 
 ```
 例：
@@ -70,7 +69,6 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
       <a href="<?php echo esc_url( home_url( '/production' ) ); ?>">
           <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/icons/production.png' ); ?>" 
                alt="<?php echo esc_attr( 'production' ); ?>">
-          <?php esc_html_e( 'Production', 'your-text-domain' ); ?>
       </a>
   </li>
 ```
@@ -192,4 +190,5 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
+
 
