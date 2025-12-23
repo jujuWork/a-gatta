@@ -36,5 +36,23 @@ document.addEventListener("DOMContentLoaded", function () {
           alert("Content link ERROR");
         });
     });
+
+    window.addEventListener("postate", function (event) {
+      if (event.state && event.state.content) {
+        document.getElementById("content-display").innerHTML =
+          event.state.content;
+      } else {
+        location.reload();
+      }
+    });
+  });
+
+  window.addEventListener("popstate", function (event) {
+    if (event.state && event.state && event.state.html) {
+      document.getElementById("content-display").innerHTML =
+        event.state.content;
+    } else {
+      this.window.location.href = this.window.location.pathname;
+    }
   });
 });

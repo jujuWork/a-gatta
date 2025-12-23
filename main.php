@@ -13,7 +13,7 @@
 <body <?php body_class(); ?>>
     <div class="grid_container">
         <div class="grid_item header">
-            <?php include get_template_directory() . '/header.php' ?>
+            <?php get_header(); ?>
         </div>
         <div class="grid-item nav">
             <?php include get_template_directory() . '/pages/nav.php' ?>
@@ -22,6 +22,6 @@
             <?php include get_template_directory() . '/pages/home.php' ?>
         </div>
         <div class="grid-item footer">
-            <?php include get_template_directory() . '/footer.php' ?>
+            <?php get_footer(); ?>
         </div>
     </div>

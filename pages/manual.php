@@ -1,3 +1,3 @@
-<div id="content-display">
+<div>
     <h1>Manual</h1>
 </div>

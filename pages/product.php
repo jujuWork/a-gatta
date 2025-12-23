@@ -1,4 +1,8 @@
-<main id="content-display">
+<?php
+/* Template Name: Production Template */
+
+?>
+<main class="nav">
     <div class="product__container">
         <div class="product__container-nav">
             <ul>

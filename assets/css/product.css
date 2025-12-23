@@ -1,16 +1,17 @@
-#content-display {
+main {
   width: 100%;
   height: 100%;
   position: relative;
   display: flex;
   overflow: hidden;
-  scroll-behavior: smooth;
 
   .product__container {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    transition: 0.5s ease;
   }
 
   .product__container-nav {
