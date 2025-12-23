@@ -1,2 +1,40 @@
 header {
+  position: relative;
+  height: 100%;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 4em;
+    border-bottom: 1px solid var(--bg2-color);
+    background-color: var(--bg3-color);
+    color: var(--text-color);
+    z-index: 10;
+
+    span {
+      font-family: "Arizonia";
+      font-style: italic;
+      text-transform: uppercase;
+      position: absolute;
+      filter: blur(2px);
+      color: rgba(0, 0, 0, 0.8);
+      letter-spacing: 1rem;
+      font-size: 1.5em;
+      color: var(--bg2-color);
+    }
+  }
+
+  nav {
+    margin-top: 0.5rem;
+
+    ul {
+      border: 1px solid orange;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
 }

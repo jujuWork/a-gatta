@@ -8,26 +8,26 @@ Version: 1.0
 :root {
   --bg-color: #fafafa;
   --bg2-color: #0077c0;
-  --text-color: #1d242b;
-  --hover-color: #c7eeff;
+  --bg3-color: #1d242b;
+  --text-color: #c7eeff;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 body {
   max-width: 3440px;
   height: 100%;
-  font-family: "Roboto";
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--bg3-color);
 }
 
 li {
@@ -46,10 +46,10 @@ li {
 
 /**************** LOGO FONT ****************/
 @font-face {
-  font-family: "BodoniModa";
-  src: url("./assets/fonts/BodoniModa-Regular.woff2") format("woff2"),
-    url("./assets/fonts/BodoniModa-Regular.woff") format("woff");
-  font-weight: 700;
+  font-family: "Arizonia";
+  src: url("./assets/fonts/Arizonia-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Arizonia-Regular.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
