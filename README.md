@@ -18,9 +18,7 @@
 
 2. HTML のクラス名については、こちらの命名ルールに従っていきましょう。
 
-```
-https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
-```
+    [Link text](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc) - ```https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc```
 
 ```
 例：
@@ -190,5 +188,6 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
     font-display: swap;
   }
 ```
+
 
 
