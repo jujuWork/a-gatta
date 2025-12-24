@@ -179,6 +179,22 @@
 
 10. CSS のメディアクエリ用として、CSS 内に **media-queries** という新しいフォルダを作成し、その中に **media.css** という CSS ファイルを作りましょう。
     また、**functions.php** にリンクするのを忘れないようお願いします。
+```
+   例：
+   /******************* HEADER QUERIES *******************/
+      @media (max-width: 1024px) {
+        nav > ul > .list__item {
+          display: none;
+  }
+}
+
+   /******************* FOOTER QUERIES *******************/
+      @media (max-width: 1024px) {
+        footer > .footer__items > .footer__item-branch {
+          display: none;
+     }
+   }
+```
 
 ---
 
@@ -198,3 +214,4 @@
       </a>
   </li>
 ```
+
