@@ -1,4 +1,23 @@
 footer {
-  height: 30%;
+  height: 100%;
   border: 1px solid orange;
+
+  .footer__item-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-family: "Arizonia";
+      font-size: 5em;
+      font-weight: 900;
+    }
+  }
+
+  .footer__item-branch {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }

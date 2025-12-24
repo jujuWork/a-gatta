@@ -32,6 +32,12 @@ function my_styles()
         'theme-home-style',
         get_template_directory_uri() . '/assets/css/home.css'
     );
+
+    // MEDIA QUERIES
+    wp_enqueue_style(
+        'media-queries',
+        get_template_directory_uri() . '/assets/css/media-queries/media.css'
+    );
 }
 add_action('wp_enqueue_scripts', 'my_styles');
 
