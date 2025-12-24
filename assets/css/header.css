@@ -12,6 +12,8 @@ header {
     border-bottom: 1px solid var(--bg2-color);
     z-index: 10;
     letter-spacing: 1em;
+    width: 100%;
+    min-width: 30%;
 
     span {
       font-family: "Arizonia";
@@ -103,5 +105,12 @@ header {
       background: var(--background-color);
       color: var(--text-color);
     }
+  }
+}
+
+/******************* MEDIA QUERY *******************/
+@media (max-width: 1024px) {
+  nav {
+    display: none;
   }
 }
