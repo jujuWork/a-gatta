@@ -1,7 +1,7 @@
 .grid_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 10%;
   grid-template-areas:
     "header header header header header"
     "content content content content content"

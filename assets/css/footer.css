@@ -1,8 +1,14 @@
 footer {
+  position: relative;
   height: 100%;
-  border: 1px solid orange;
+  max-height: 10em;
+
+  .footer__items {
+    margin-bottom: 3em;
+  }
 
   .footer__item-title {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +23,26 @@ footer {
   .footer__item-branch {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 3em;
+    margin: 1.2rem 0 1.2rem 0;
+  }
+
+  .footer__link {
+    font-size: 1rem;
+    border: none;
+    transition: 0.5s ease;
+  }
+
+  .footer__link:hover {
+    border-bottom: 5px solid var(--hover-color);
+  }
+
+  .footer__date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
   }
 }
