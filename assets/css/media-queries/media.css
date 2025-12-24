@@ -1,0 +1,13 @@
+/******************* HEADER QUERIES *******************/
+@media (max-width: 1024px) {
+  nav > ul > .list__item {
+    display: none;
+  }
+}
+
+/******************* FOOTER QUERIES *******************/
+@media (max-width: 1024px) {
+  footer > .footer__items > .footer__item-branch {
+    display: none;
+  }
+}
