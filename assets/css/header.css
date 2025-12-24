@@ -10,8 +10,6 @@ header {
     font-weight: 900;
     font-size: 4em;
     border-bottom: 1px solid var(--bg2-color);
-    background-color: var(--bg3-color);
-    color: var(--text-color);
     z-index: 10;
 
     span {
@@ -20,10 +18,8 @@ header {
       text-transform: uppercase;
       position: absolute;
       filter: blur(2px);
-      color: rgba(0, 0, 0, 0.8);
       letter-spacing: 1rem;
       font-size: 1.5em;
-      color: var(--bg2-color);
     }
   }
 
@@ -31,10 +27,76 @@ header {
     margin-top: 0.5rem;
 
     ul {
-      border: 1px solid orange;
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .list__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 8em;
+      min-width: 2em;
+      height: 3em;
+      min-height: 1em;
+      font-size: 1.3rem;
+    }
+
+    .dropDown {
+      position: relative;
+    }
+
+    .dropDown__btn {
+      background-color: var(--hover-color);
+      color: var(--secondary-color);
+      cursor: pointer;
+      font-size: 1.3rem;
+      position: relative;
+      width: 8em;
+      height: 3em;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border: none;
+      transition: 0.3s ease;
+    }
+
+    .dropDown__content {
+      display: none;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      background: rgba(155, 57, 34, 0.9);
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropDown__link {
+      padding: 12px 16px;
+      display: block;
+      font-size: 1rem;
+    }
+
+    .dropDown__link span {
+      color: var(--text-color);
+      transition: 0.5s ease;
+      display: block;
+    }
+
+    .dropDown__link span:hover {
+      transform: translateX(10px);
+    }
+
+    .dropDown:hover .dropDown__content {
+      display: block;
+      color: var(--text-color);
+    }
+
+    .dropDown:hover .dropDown__btn {
+      background: var(--background-color);
+      color: var(--text-color);
     }
   }
 }

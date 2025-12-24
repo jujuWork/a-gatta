@@ -6,23 +6,25 @@ Version: 1.0
 */
 
 :root {
-  --bg-color: #0c0c0c;
-  --bg2-color: #0077c0;
-  --bg3-color: #1d242b;
-  --text-color: #c7eeff;
+  --background-color: #fafafa;
+  --secondary-color: #e6e6e6;
+  --hover-color: #9b3922;
+  --font-color: #0c0c0c;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color);
 }
 
 body {
   max-width: 3440px;
   height: 100%;
   scroll-behavior: smooth;
+  background-color: var(--background-color);
 }
 
 a {
