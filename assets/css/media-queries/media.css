@@ -6,8 +6,8 @@
 }
 
 /******************* FOOTER QUERIES *******************/
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   footer > .footer__items > .footer__item-branch {
     display: none;
   }
-}
+} */

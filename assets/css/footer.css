@@ -3,10 +3,6 @@ footer {
   height: 100%;
   max-height: 10em;
 
-  .footer__items {
-    margin-bottom: 3em;
-  }
-
   .footer__item-title {
     position: relative;
     display: flex;
