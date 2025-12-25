@@ -21,8 +21,11 @@ Version: 1.0
   color: var(--font-color);
 }
 
-body {
+body,
+html {
+  width: 100%;
   max-width: 3440px;
+  min-width: 300px;
   height: 100%;
   scroll-behavior: smooth;
   background-color: var(--background-color);
