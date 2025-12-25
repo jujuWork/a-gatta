@@ -14,23 +14,23 @@
             <li class="list__item">
                 <div class="dropDown">
                     <button class="dropDown__btn">
-                        <a href="<?php echo esc_url(home_url('/Production')); ?>">Products</a>
+                        <a href="<?php echo esc_url(home_url('/Production')); ?>">制作実績</a>
                     </button>
                     <div class="dropDown__content">
                         <a href="#" class="dropDown__link">
-                            <span>Landing Page</span>
+                            <span>LPページ</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>Home Page</span>
+                            <span>ホームページ</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>Design</span>
+                            <span>デサイーン</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>Logo</span>
+                            <span>ロゴ</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>Illustrator</span>
+                            <span>イラスト</span>
                         </a>
                     </div>
                 </div>
@@ -38,11 +38,11 @@
             <li class="list__item">
                 <div class="dropDown">
                     <button class="dropDown__btn">
-                        <a href="<?php echo esc_url(home_url('/Manual')); ?>">Manuals</a>
+                        <a href="<?php echo esc_url(home_url('/Manual')); ?>">マニュアル</a>
                     </button>
                     <div class="dropDown__content">
                         <a href="#" class="dropDown__link">
-                            <span>Process Manuals</span>
+                            <span>案件制作マニュアル</span>
                         </a>
                     </div>
                 </div>
@@ -50,17 +50,17 @@
             <li class="list__item">
                 <div class="dropDown">
                     <button class="dropDown__btn">
-                        <a href="<?php echo esc_url(home_url('/Shifts')); ?>">Shifts</a>
+                        <a href="<?php echo esc_url(home_url('/Shifts')); ?>">シフト</a>
                     </button>
                     <div class="dropDown__content">
                         <a href="#" class="dropDown__link">
-                            <span>January Schedule</span>
+                            <span>1月 スケジュール</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>December Schedule</span>
+                            <span>12月 スケジュール</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>November Schedule</span>
+                            <span>11月 スケジュール</span>
                         </a>
                     </div>
                 </div>
@@ -68,24 +68,24 @@
             <li class="list__item">
                 <div class="dropDown">
                     <button class="dropDown__btn">
-                        <a href="<?php echo esc_url(home_url('/Montly')); ?>">Monthly</a>
+                        <a href="<?php echo esc_url(home_url('/Montly')); ?>">日報</a>
                     </button>
                     <div class="dropDown__content">
                         <a href="#" class="dropDown__link">
-                            <span>January Report</span>
+                            <span>1月 日報</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>December Report</span>
+                            <span>12月 日報</span>
                         </a>
                         <a href="#" class="dropDown__link">
-                            <span>November Report</span>
+                            <span>11月 日報</span>
                         </a>
                     </div>
                 </div>
             </li>
             <li class="list__item">
                 <a href="<?php echo esc_url(home_url('/case')); ?>" class="nav-link">
-                    Case
+                    案件管理
                 </a>
             </li>
         </ul>
