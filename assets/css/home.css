@@ -99,15 +99,18 @@ article {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 5em;
 
-  .article__forum-container {
+  .article__forum-container,
+  .article__news-container {
     display: flex;
     width: min(80%, 700px);
     height: auto;
     position: relative;
   }
 
-  .forum__text {
+  .forum__text,
+  .article__text {
     flex: 1;
     display: flex;
     align-items: center;
@@ -117,12 +120,111 @@ article {
     gap: 10px;
   }
 
-  .forum__text span {
+  .forum__text span,
+  .article__text span {
     margin-left: 1rem;
     font-weight: 800;
   }
 
   .forum__item-card {
+    width: 200px;
+    height: 120px;
+    padding: 0 0.3rem;
+    background: var(--third-color);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border-bottom: 3px solid var(--secondary-color);
+    border-left: 2px rgba(255, 255, 255, 0.545) outset;
+    box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+    transform: skewX(10deg);
+    transition: 0.4s;
+    overflow: hidden;
+    color: var(--text-color);
+  }
+
+  .forum__item-card:hover,
+  .article__item-card:hover {
+    height: 160px;
+    transform: skew(0deg);
+  }
+
+  .forum__item-card-align,
+  .article__item-card-align {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-self: flex-start;
+  }
+
+  .red {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff605c;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+  }
+
+  .yellow {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffbd44;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+  }
+
+  .green {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #00ca4e;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+  }
+
+  .forum__item-card h2,
+  .article__item-card h2 {
+    text-align: center;
+    margin: 1.3rem;
+    color: var(--text-color);
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.573);
+  }
+
+  .forum__item-card-btn,
+  .article__item-card-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: transparent;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
+    border-radius: 8px;
+    transition: 0.5s ease;
+  }
+
+  .forum__item-card-btn:hover,
+  .article__item-card-btn:hover {
+    letter-spacing: 1.5px;
+    background-color: var(--secondary-color);
+  }
+
+  .article__item-card {
+    width: 200px;
+    height: 120px;
+    padding: 0 0.3rem;
+    background: var(--third-color);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border-bottom: 3px solid var(--secondary-color);
+    border-left: 2px rgba(255, 255, 255, 0.545) outset;
+    box-shadow: 40px 50px 30px rgba(0, 0, 0, 0.28);
+    transform: skewX(10deg);
+    transition: 0.4s;
+    overflow: hidden;
+    color: var(--text-color);
+  }
+
+  .article__item-card {
     width: 200px;
     height: 120px;
     padding: 0 0.3rem;
@@ -138,64 +240,27 @@ article {
     color: var(--text-color);
   }
 
-  .forum__item-card:hover {
-    height: 160px;
-    transform: skew(0deg);
-  }
-
-  .forum__item-card-align {
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    align-self: flex-start;
-  }
-
-  .red {
+  .blue {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #ff605c;
+    background: #0544f1;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
   }
 
-  .yellow {
+  .violet {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #ffbd44;
+    background: #b303f8;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
   }
 
-  .green {
+  .orange {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #00ca4e;
+    background: #e98503;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
-  }
-
-  .forum__item-card h2 {
-    text-align: center;
-    margin: 1.3rem;
-    color: var(--text-color);
-    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.573);
-  }
-
-  .forum__item-card-btn {
-    cursor: pointer;
-    width: 100%;
-    height: 40px;
-    font-size: 1.1rem;
-    border: none;
-    background-color: transparent;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
-    border-radius: 8px;
-    transition: 0.5s ease;
-  }
-
-  .forum__item-card-btn:hover {
-    letter-spacing: 1.5px;
-    background-color: var(--secondary-color);
   }
 }

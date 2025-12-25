@@ -31,6 +31,7 @@
         </div>
     </div>
 </main>
+
 <article>
     <div class="article__forum-container">
         <div class="forum__text">
@@ -63,12 +64,30 @@
             <button class="forum__item-card-btn">More</button>
         </div>
     </div>
+
     <div class="article__news-container">
-        <div>
-            text
+        <div class="article__item-card">
+            <div class="article__item-card-align">
+                <span class="blue"></span>
+                <span class="violet"></span>
+                <span class="orange"></span>
+            </div>
+            <h2>NEWS</h2>
+            <button class="article__item-card-btn">More</button>
         </div>
-        <div>
-            news card
+        <div class="article__text">
+            <p>
+                2025・01・05
+                <span>
+                    <a href="#">Lorem ipsum, dolor sit amet consectetur</a>
+                </span>
+            </p>
+            <p>
+                2025・12・26
+                <span>
+                    <a href="#">Lorem ipsum, dolor sit amet consectetur</a>
+                </span>
+            </p>
         </div>
     </div>
 </article>
