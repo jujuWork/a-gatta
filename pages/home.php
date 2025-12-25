@@ -1,20 +1,28 @@
 <?php get_header(); ?>
 
-<!-- <main>
-    <div class="main__container">
-        <div class="main__title">
-            <h2>Sponago Top Team</h2>
-            <div class="main__title-texts">
-                <p>スポナゴA型就労継続支援のポータルサイト</p>
+<main>
+    <div class="main__flip-card">
+        <div class=" main__flip-card-inner">
+            <div class="main__flip-card-front">
+                <div class="main__flip-title">
+                    <p class="main__flip-title-text-front">
+                        Sponago <br>
+                        Top <br>
+                        Team <br>
+                    </p>
+                </div>
             </div>
-            <div class="main__title-texts">
-                <p>「共創」をテーマにこのサイトは運営しています。</p>
-                <p>互いに助け合い、寄り添って問題解決・改善を行いましょう。</p>
-                <p>サイトに関して不便なことがありましたら、支援員にご相談ください。</p>
+            <div class="main__flip-card-back">
+                <div class="main__flip-title">
+                    <p class="main__flip-title-text-back">
+
+                    </p>
+                </div>
             </div>
         </div>
+
     </div>
-</main> -->
+</main>
 
 
 <?php get_footer(); ?>

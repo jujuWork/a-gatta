@@ -6,10 +6,11 @@ Version: 1.0
 */
 
 :root {
-  --background-color: #f7fbfc;
-  --secondary-color: #d6e6f2;
-  --hover-color: #b9d7ea;
-  --text-color: #1d242b;
+  --background-color: #f7fbfc; /* white */
+  --secondary-color: #d6e6f2; /* light grey */
+  --third-color: #e6e6e6; /* light grey */
+  --hover-color: #b9d7ea; /* light blue */
+  --text-color: #1d242b; /* black */
 }
 
 * {
