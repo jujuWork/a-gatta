@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<!-- <main>
     <div class="main__container">
         <div class="main__title">
             <h2>Sponago Top Team</h2>
@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-</main>
+</main> -->
 
 
 <?php get_footer(); ?>

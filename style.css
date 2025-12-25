@@ -6,10 +6,10 @@ Version: 1.0
 */
 
 :root {
-  --background-color: #fafafa;
-  --secondary-color: #e6e6e6;
-  --hover-color: #9b3922;
-  --font-color: #0c0c0c;
+  --background-color: #f7fbfc;
+  --secondary-color: #d6e6f2;
+  --hover-color: #b9d7ea;
+  --text-color: #1d242b;
 }
 
 * {

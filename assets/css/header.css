@@ -13,8 +13,6 @@ header {
     font-family: "Roboto";
     font-weight: 900;
     font-size: 4em;
-    border-bottom: 1px solid var(--bg2-color);
-    z-index: 10;
     letter-spacing: 1em;
     width: 100%;
     min-width: 30%;
@@ -32,7 +30,7 @@ header {
 
   nav {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     z-index: 9999;
     margin-top: 1rem;
 
@@ -41,7 +39,12 @@ header {
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 1px;
+      gap: 20px;
+    }
+
+    .nav-link:hover {
+      background: var(--secondary-color);
+      box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
     }
 
     .list__item {
@@ -60,18 +63,23 @@ header {
       position: relative;
     }
 
-    .dropDown__btn {
-      background-color: var(--hover-color);
-      color: var(--secondary-color);
+    .dropDown__btn,
+    .nav-link {
       cursor: pointer;
-      font-size: 1.3rem;
       position: relative;
-      width: 8em;
+      width: 10em;
       height: 3em;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      border: none;
       transition: 0.5s ease;
+      background-color: transparent;
+      padding: 0.7em 1.7em;
+      font-size: 18px;
+      border-radius: 0.5em;
+      background: #e8e8e8;
+      cursor: pointer;
+      border: 1px solid #e8e8e8;
+      transition: all 0.3s;
+      box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+      text-align: center;
     }
 
     .dropDown__content {
@@ -79,9 +87,7 @@ header {
       position: absolute;
       left: 0;
       width: 100%;
-      background: rgba(155, 57, 34, 0.9);
       min-width: 100px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       transition: 0.5s ease;
     }
 
@@ -93,7 +99,6 @@ header {
     }
 
     .dropDown__link span {
-      color: var(--secondary-color);
       transition: 0.5s ease;
       display: block;
       font-size: 0.9rem;
@@ -105,7 +110,8 @@ header {
 
     .dropDown:hover .dropDown__content {
       display: block;
-      color: var(--text-color);
+      border-radius: 10px;
+      background: var(--secondary-color);
     }
 
     .dropDown:hover .dropDown__btn {

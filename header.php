@@ -7,7 +7,7 @@
     <nav>
         <ul>
             <li class="list__item">
-                <a href="<?php echo esc_url(home_url('/index')); ?>">
+                <a href="<?php echo esc_url(home_url('/index')); ?>" class="nav-link">
                     Home
                 </a>
             </li>
@@ -84,7 +84,7 @@
                 </div>
             </li>
             <li class="list__item">
-                <a href="<?php echo esc_url(home_url('/case')); ?>">
+                <a href="<?php echo esc_url(home_url('/case')); ?>" class="nav-link">
                     Case
                 </a>
             </li>
