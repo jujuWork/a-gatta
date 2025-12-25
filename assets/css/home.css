@@ -104,6 +104,7 @@ article {
   .article__forum-container,
   .article__news-container {
     display: flex;
+    flex-wrap: wrap;
     width: min(80%, 700px);
     height: auto;
     position: relative;
@@ -118,6 +119,7 @@ article {
     font-size: 0.75rem;
     flex-direction: column;
     gap: 10px;
+    white-space: nowrap;
   }
 
   .forum__text span,
