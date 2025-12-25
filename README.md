@@ -54,10 +54,10 @@
 ```
 例：
 <img src="<?php echo esc_url(get_theme_file_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
+```
 
 [**esc_url()**] を使用する：セキュリティのため、URLを出力する際は必ずこの関数で囲みます。
 [**get_theme_file_uri()**] を使用する：テーマフォルダ内にある画像・アイコン・スクリプトを指定する際に使用します。
-```
 
 5. 大きい背景画像を読み込む際は、PNG や JPG ではなく、.webp 形式に変換して使用することをおすすめします。
 
@@ -238,5 +238,6 @@
       </a>
   </li>
 ```
+
 
 
