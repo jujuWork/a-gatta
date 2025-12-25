@@ -119,6 +119,7 @@ article {
 
   .forum__text span {
     margin-left: 1rem;
+    font-weight: 800;
   }
 
   .forum__item-card {
