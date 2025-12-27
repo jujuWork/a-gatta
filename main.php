@@ -1,6 +1,6 @@
 <!-- ASSIGNED VARIABLE -->
 <?php
-$mainbg_url = get_template_directory_uri() . '/assets/backgrounds/main-bg.webp';
+$mainbg = get_template_directory_uri() . '/assets/backgrounds/main-bg.webp';
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ $mainbg_url = get_template_directory_uri() . '/assets/backgrounds/main-bg.webp';
 
 <body <?php body_class(); ?>>
     <div class="grid_container">
-        <img src="<?php echo esc_url($mainbg_url); ?>" alt="mainbg" class="mainBG">
+        <img src="<?php echo esc_url($mainbg); ?>" alt="mainbg" class="mainBG">
         <div class="grid_item header">
             <?php get_header(); ?>
         </div>

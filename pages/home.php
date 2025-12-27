@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+get_header();
+
+$articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
+?>
 
 <main>
     <div class="main__flip-card">
@@ -61,7 +65,7 @@
                 <span class="green"></span>
             </div>
             <h2>FORUM</h2>
-            <button class="forum__item-card-btn">More</button>
+            <a href="#" class="forum__item-card-btn">More</a>
         </div>
     </div>
 
@@ -73,7 +77,7 @@
                 <span class="orange"></span>
             </div>
             <h2>NEWS</h2>
-            <button class="article__item-card-btn">More</button>
+            <a class="article__item-card-btn">More</a>
         </div>
         <div class="article__text">
             <p>
@@ -92,6 +96,12 @@
     </div>
 </article>
 
+<aside>
+    <!-- 
+    BACKGROUND IMAGE 
+    -->
+    aside
+</aside>
 
 
 
