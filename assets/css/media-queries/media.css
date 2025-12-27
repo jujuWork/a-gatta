@@ -6,6 +6,14 @@
 }
 
 /******************* FOOTER QUERIES *******************/
+
+@media (max-width: 1024px) {
+  .forum__text {
+    display: none;
+  }
+}
+
+/******************* FOOTER QUERIES *******************/
 /* @media (max-width: 1024px) {
   footer > .footer__items > .footer__item-branch {
     display: none;
