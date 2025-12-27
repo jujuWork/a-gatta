@@ -8,7 +8,15 @@
 /******************* FOOTER QUERIES *******************/
 
 @media (max-width: 1024px) {
-  .forum__text {
+  article > .article__forum-container > .forum__text {
+    display: none;
+  }
+  article > .article__forum-container,
+  .article__news-container {
+    justify-content: center;
+  }
+
+  article > .article__news-container > .article__text {
     display: none;
   }
 }

@@ -6,11 +6,11 @@ Version: 1.0
 */
 
 :root {
-  --background-color: #f7fbfc; /* white */
-  --secondary-color: #d6e6f2; /* light grey */
-  --third-color: #e6e6e6; /* light grey */
-  --hover-color: #b9d7ea; /* light blue */
-  --text-color: #1d242b; /* black */
+  --background-color: #f7fbfc; /* white rgb(247, 251, 252) */
+  --secondary-color: #d6e6f2; /* light grey rgb(214, 230, 242) */
+  --third-color: #e6e6e6; /* light grey rgb(230, 230, 230) */
+  --hover-color: #b9d7ea; /* light blue rgb(185, 215, 234) */
+  --text-color: #1d242b; /* black rgb(29, 36, 43) */
 }
 
 * {
@@ -28,7 +28,6 @@ html {
   min-width: 300px;
   height: 100%;
   scroll-behavior: smooth;
-  background-color: var(--background-color);
 }
 
 a {
