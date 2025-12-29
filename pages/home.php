@@ -100,13 +100,12 @@ $articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
     <!-- 
     BACKGROUND IMAGE 
     -->
-    <div class="aside___radio-inputs">
-        <!-- TABS -->
-        <label for="radio" class="aside__radio">
-            <input type="radio" name="radio" checked="">
-            <span class="aside_radio-name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
+    <div class="radio-inputs">
+        <label class="radio">
+            <input type="radio" name="radio" checked="" />
+            <span class="name">
+                <span class="pre-name"></span>
+                <span class="pos-name"></span>
                 <span>Tabs</span>
             </span>
             <div class="content">
@@ -115,12 +114,11 @@ $articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
                 </div>
             </div>
         </label>
-        <!-- AND -->
-        <label for="radio" class="aside__radio">
-            <input type="radio" name="radio">
-            <span class="aside_radio-name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
+        <label class="radio">
+            <input type="radio" name="radio" />
+            <span class="name">
+                <span class="pre-name"></span>
+                <span class="pos-name"></span>
                 <span>And</span>
             </span>
             <div class="content">
@@ -129,35 +127,36 @@ $articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
                 </div>
             </div>
         </label>
-        <!-- MORE CONTENT -->
-        <label for="radio" class="aside__radio">
-            <input type="radio" name="radio">
-            <span class="aside_radio-name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>More Content</span>
+
+        <label class="radio">
+            <input type="radio" name="radio" />
+            <span class="name">
+                <span class="pre-name"></span>
+                <span class="pos-name"></span>
+                <span>More</span>
             </span>
             <div class="content">
                 <div>
-                    <div>And more Content</div>
+                    <div>More content</div>
                 </div>
             </div>
         </label>
-        <!-- More and More COntent -->
-        <label for="radio" class="aside__radio">
-            <input type="radio" name="radio">
-            <span class="aside_radio-name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>More tabs</span>
+
+        <label class="radio">
+            <input type="radio" name="radio" />
+            <span class="name">
+                <span class="pre-name"></span>
+                <span class="pos-name"></span>
+                <span>Tabs</span>
             </span>
             <div class="content">
                 <div>
-                    <div>And More Tabs</div>
+                    <div>And Even More content</div>
                 </div>
             </div>
         </label>
     </div>
+
 </aside>
 
 

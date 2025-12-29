@@ -269,26 +269,22 @@ aside {
   align-items: center;
   justify-content: center;
 
-  .aside___radio-inputs {
+  .radio-inputs {
     position: relative;
     display: flex;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     background: #70c489;
-    font-size: 1rem;
+    font-size: 14px;
     width: 90%;
     padding: 0.5rem 1.5rem 0 1.5rem;
   }
 
-  .aside__radio-inputs,
-  .aside__radio,
-  input {
+  .radio-inputs .radio .name {
     display: none;
   }
 
-  .aside__radio-inputs,
-  .aside__radio,
-  .aside__radio-name {
+  .radio-inputs .radio .name {
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -300,65 +296,132 @@ aside {
     border-top-right-radius: 0.5rem;
   }
 
-  .aside__radio-inputs,
-  .aside__radio,
-  input + .aside__radio-name:hover {
+  .radio-inputs .name:hover {
     color: #fff;
   }
 
-  .aside__radio-inputs,
-  .aside__radio,
-  input + .aside__name,
-  .aisde__pre-name,
-  .aside__radio-inputs,
-  .aside__radio,
-  input + .aside__name,
-  .aisde__pos-name {
-    border: 1px solid red;
+  .radio-inputs .pre-name,
+  .radio-inputs .pos-name {
     content: "";
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: #70c489;
     bottom: 0;
-    opacity: 0;
+    opacity: 0; /* temporary to see the styles */
   }
 
-  .aside__inputs .aside__radio,
-  input + .aside__name,
-  .aside__pre-name {
+  .radio-inputs .pre-name {
     right: -10px;
     border-bottom-left-radius: 300px;
     box-shadow: -3px 3px 0px 3px #e8e8e8;
   }
 
-  .aside__inputs .aside__radio,
-  input + .aside__name,
-  .aside__pos-name {
+  .radio-inputs .pos-name {
     left: -10px;
     border-bottom-right-radius: 300px;
     box-shadow: 3px 3px 0px 3px #e8e8e8;
   }
 
-  .aside__inputs .aside__radio,
-  input:checked + .aside__name {
+  .radio-inputs .radio input:checked + .name {
     animation: name-activated;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
   }
 
-  @keyframes name-activated {
-    from {
-      background-color: #70c489;
-      font-weight: 400;
-      cursor: pointer;
-      color: white;
-    }
-    to {
-      background-color: #e8e8e8;
-      font-weight: 600;
-      cursor: default;
-      color: black;
-    }
+  .radio-inputs .pre-name,
+  .radio-inputs .pos-name {
+    animation: name-border-activated;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    z-index: 0;
+  }
+
+  .radio-inputs .name span:last-child {
+    z-index: 1;
+    padding: 0.5rem 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .radio-inputs input:checked + .name span:last-child {
+    animation: name-text-activated;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+  }
+
+  .radio > .content {
+    border: 1px solid red;
+    display: block;
+  }
+
+  .label.radio > input:checked ~ div.content div * {
+    animation: content-activated;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .content {
+    background-color: #70c489;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .content > div {
+    background-color: #e8e8e8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-bottom: 1.2rem;
+    border: 4px solid #70c489;
+    border-top-width: 0px;
+  }
+}
+
+@keyframes name-activated {
+  from {
+    background-color: #70c489;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+  }
+
+  to {
+    background-color: #e8e8e8;
+    font-weight: 600;
+    cursor: default;
+    color: black;
+  }
+}
+
+@keyframes name-border-activated {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes name-text-activated {
+  from {
+    background: #70c489;
+  }
+
+  to {
+    background-color: #e8e8e8;
+  }
+}
+
+@keyframes content-activated {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
