@@ -270,18 +270,95 @@ aside {
   justify-content: center;
 
   .aside___radio-inputs {
-    border: 1px solid red;
     position: relative;
     display: flex;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-    background: var(--third-color);
+    background: #70c489;
     font-size: 1rem;
     width: 90%;
     padding: 0.5rem 1.5rem 0 1.5rem;
   }
 
-  .aside__radio-inputs .aside__radio input {
+  .aside__radio-inputs,
+  .aside__radio,
+  input {
     display: none;
+  }
+
+  .aside__radio-inputs,
+  .aside__radio,
+  .aside__radio-name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.15s ease-in-out;
+    position: relative;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .aside__radio-inputs,
+  .aside__radio,
+  input + .aside__radio-name:hover {
+    color: #fff;
+  }
+
+  .aside__radio-inputs,
+  .aside__radio,
+  input + .aside__name,
+  .aisde__pre-name,
+  .aside__radio-inputs,
+  .aside__radio,
+  input + .aside__name,
+  .aisde__pos-name {
+    border: 1px solid red;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #70c489;
+    bottom: 0;
+    opacity: 0;
+  }
+
+  .aside__inputs .aside__radio,
+  input + .aside__name,
+  .aside__pre-name {
+    right: -10px;
+    border-bottom-left-radius: 300px;
+    box-shadow: -3px 3px 0px 3px #e8e8e8;
+  }
+
+  .aside__inputs .aside__radio,
+  input + .aside__name,
+  .aside__pos-name {
+    left: -10px;
+    border-bottom-right-radius: 300px;
+    box-shadow: 3px 3px 0px 3px #e8e8e8;
+  }
+
+  .aside__inputs .aside__radio,
+  input:checked + .aside__name {
+    animation: name-activated;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes name-activated {
+    from {
+      background-color: #70c489;
+      font-weight: 400;
+      cursor: pointer;
+      color: white;
+    }
+    to {
+      background-color: #e8e8e8;
+      font-weight: 600;
+      cursor: default;
+      color: black;
+    }
   }
 }
