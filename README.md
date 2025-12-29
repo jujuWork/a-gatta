@@ -153,8 +153,32 @@
     <section class ="card"
       <div class="card__container">
         <span class="card__container-items">Items</span>
+        <p class="card__text>Card</p>
+        <p class="article__text">Article</p>
       </div>
     </section>
+```
+
+8. 同じスタイルを持つ要素がある場合は、1つのスタイルにまとめたほうがいいです。
+```
+   例：
+     .card__container,
+     .card__container-items {
+       flex: 1;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 0.75rem;
+       flex-direction: column;
+       gap: 10px;
+       white-space: nowrap;
+     }
+   
+     .card__text,
+     .article__text {
+       margin-left: 1rem;
+       font-weight: 800;
+     }
 ```
 
 9. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
@@ -199,27 +223,7 @@
      }
    }
 ```
-11. 同じスタイルを持つ要素がある場合は、1つのスタイルにまとめたほうがいいです。
-```
-   例：
-     .forum__text,
-     .article__text {
-       flex: 1;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       font-size: 0.75rem;
-       flex-direction: column;
-       gap: 10px;
-       white-space: nowrap;
-     }
-   
-     .forum__text span,
-     .article__text span {
-       margin-left: 1rem;
-       font-weight: 800;
-     }
-```
+
 
 ---
 
@@ -239,6 +243,7 @@
       </a>
   </li>
 ```
+
 
 
 
