@@ -100,56 +100,56 @@ $articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
     <!-- 
     BACKGROUND IMAGE 
     -->
-    <div class="radio-inputs">
-        <label class="radio">
+    <div class="aside__radio-inputs">
+        <label class="aside__radio">
             <input type="radio" name="radio" checked="" />
-            <span class="name">
-                <span class="pre-name"></span>
-                <span class="pos-name"></span>
+            <span class="aside__name">
+                <span class="aside__pre-name"></span>
+                <span class="aside__pos-name"></span>
                 <span>Tabs</span>
             </span>
-            <div class="content">
+            <div class="aside__content">
                 <div>
                     <div>Content</div>
                 </div>
             </div>
         </label>
-        <label class="radio">
+        <label class="aside__radio">
             <input type="radio" name="radio" />
-            <span class="name">
-                <span class="pre-name"></span>
-                <span class="pos-name"></span>
+            <span class="aside__name">
+                <span class="aside__pre-name"></span>
+                <span class="aside__pos-name"></span>
                 <span>And</span>
             </span>
-            <div class="content">
+            <div class="aside__content">
                 <div>
                     <div>And content</div>
                 </div>
             </div>
         </label>
 
-        <label class="radio">
+        <label class="aside__radio">
             <input type="radio" name="radio" />
-            <span class="name">
-                <span class="pre-name"></span>
-                <span class="pos-name"></span>
+            <span class="aside__name">
+                <span class="aside__pre-name"></span>
+                <span class="aside__pos-name"></span>
                 <span>More</span>
             </span>
-            <div class="content">
+            <div class="aside__content">
                 <div>
                     <div>More content</div>
                 </div>
             </div>
         </label>
 
-        <label class="radio">
+        <label class="aside__radio">
             <input type="radio" name="radio" />
-            <span class="name">
-                <span class="pre-name"></span>
-                <span class="pos-name"></span>
+            <span class="aside__name">
+                <span class="aside__pre-name"></span>
+                <span class="aside__pos-name"></span>
                 <span>Tabs</span>
             </span>
-            <div class="content">
+            <div class="aside__content">
                 <div>
                     <div>And Even More content</div>
                 </div>

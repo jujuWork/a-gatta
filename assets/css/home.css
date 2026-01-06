@@ -269,7 +269,7 @@ aside {
   align-items: center;
   justify-content: center;
 
-  .radio-inputs {
+  .aside__radio-inputs {
     position: relative;
     display: flex;
     border-top-left-radius: 0.5rem;
@@ -280,11 +280,11 @@ aside {
     padding: 0.5rem 1.5rem 0 1.5rem;
   }
 
-  .radio-inputs .radio input {
+  .aside__radio-inputs .aside__radio input {
     display: none;
   }
 
-  .radio-inputs .radio .name {
+  .aside__radio-inputs .aside__radio .aside__name {
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -296,12 +296,12 @@ aside {
     border-top-right-radius: 0.5rem;
   }
 
-  .radio-inputs + .name:hover {
+  .aside__radio-inputs + .aside__name:hover {
     color: #fff;
   }
 
-  .radio-inputs + .pre-name,
-  .radio-inputs + .pos-name {
+  .aside__radio-inputs + .aside__pre-name,
+  .aside__radio-inputs + .aside__pos-name {
     content: "";
     position: absolute;
     width: 10px;
@@ -311,60 +311,60 @@ aside {
     opacity: 0; /* temporary to see the styles */
   }
 
-  .radio-inputs + .pre-name {
+  .aside__radio-inputs + .aside__pre-name {
     right: -10px;
     border-bottom-left-radius: 300px;
     box-shadow: -3px 3px 0px 3px #e8e8e8;
   }
 
-  .radio-inputs + .pos-name {
+  .aside__radio-inputs + .aside__pos-name {
     left: -10px;
     border-bottom-right-radius: 300px;
     box-shadow: 3px 3px 0px 3px #e8e8e8;
   }
 
-  .radio-inputs .radio input:checked + .name {
+  .aside__radio-inputs .aside__radio input:checked + .aside__name {
     animation: name-activated;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
   }
 
-  .radio-inputs + .pre-name,
-  .radio-inputs + .pos-name {
+  .aside__radio-inputs + .aside__pre-name,
+  .aside__radio-inputs + .aside__pos-name {
     animation: name-border-activated;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
     z-index: 0;
   }
 
-  .radio-inputs .name span:last-child {
+  .aside__radio-inputs .aside__name span:last-child {
     z-index: 1;
     padding: 0.5rem 0.8rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
 
-  .radio-inputs input:checked + .name span:last-child {
+  .aside__radio-inputs input:checked + .aside__name span:last-child {
     animation: name-text-activated;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
   }
 
-  .radio > .content {
+  .aside__radio > .aside__content {
     display: none;
   }
 
-  input:checked ~ div.content {
+  input:checked ~ div.aside__content {
     display: block;
   }
 
-  div.content div * {
+  div.aside__content div * {
     animation: content-activated;
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 
-  .content {
+  .aside__content {
     background-color: #70c489;
     position: absolute;
     left: 0px;
@@ -373,7 +373,7 @@ aside {
     border-bottom-right-radius: 0.5rem;
   }
 
-  .content > div {
+  .aside__content > div {
     background-color: #e8e8e8;
     border-radius: 0.5rem;
     padding: 1rem;
