@@ -1,7 +1,7 @@
 <?php
 get_header();
 
-$articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
+$aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
 ?>
 
 <main>
@@ -97,9 +97,7 @@ $articlebg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
 </article>
 
 <aside>
-    <!-- 
-    BACKGROUND IMAGE 
-    -->
+    <!-- <div class="aside__sub-bg"></div> -->
     <div class="aside__radio-inputs">
         <label class="aside__radio">
             <input type="radio" name="radio" checked="" />
