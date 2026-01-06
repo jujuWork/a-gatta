@@ -97,7 +97,9 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
 </article>
 
 <aside>
-    <!-- <div class="aside__sub-bg"></div> -->
+    <div class="aside__title">
+        <h2>Works</h2>
+    </div>
     <div class="aside__radio-inputs">
         <label class="aside__radio">
             <input type="radio" name="radio" checked="" />
@@ -154,7 +156,6 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
             </div>
         </label>
     </div>
-
 </aside>
 
 
