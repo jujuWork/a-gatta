@@ -106,11 +106,13 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
             <span class="aside__name">
                 <span class="aside__pre-name"></span>
                 <span class="aside__pos-name"></span>
-                <span>Tabs</span>
+                <span>LP Page</span>
             </span>
             <div class="aside__content">
                 <div>
-                    <div>Content</div>
+                    <div>
+                        LP Page
+                    </div>
                 </div>
             </div>
         </label>
@@ -119,25 +121,11 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
             <span class="aside__name">
                 <span class="aside__pre-name"></span>
                 <span class="aside__pos-name"></span>
-                <span>And</span>
+                <span>Home Page</span>
             </span>
             <div class="aside__content">
                 <div>
-                    <div>And content</div>
-                </div>
-            </div>
-        </label>
-
-        <label class="aside__radio">
-            <input type="radio" name="radio" />
-            <span class="aside__name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>More</span>
-            </span>
-            <div class="aside__content">
-                <div>
-                    <div>More content</div>
+                    <div>Home Page</div>
                 </div>
             </div>
         </label>
@@ -147,11 +135,25 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
             <span class="aside__name">
                 <span class="aside__pre-name"></span>
                 <span class="aside__pos-name"></span>
-                <span>Tabs</span>
+                <span>Design</span>
             </span>
             <div class="aside__content">
                 <div>
-                    <div>And Even More content</div>
+                    <div>Design</div>
+                </div>
+            </div>
+        </label>
+
+        <label class="aside__radio">
+            <input type="radio" name="radio" />
+            <span class="aside__name">
+                <span class="aside__pre-name"></span>
+                <span class="aside__pos-name"></span>
+                <span>Others</span>
+            </span>
+            <div class="aside__content">
+                <div>
+                    <div>Others</div>
                 </div>
             </div>
         </label>
