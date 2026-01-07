@@ -285,8 +285,7 @@ aside {
   }
 
   .aside__post {
-    border: 1px solid red;
-    height: 50vh;
+    height: 100%;
     width: 90%;
     min-width: 300px;
     position: relative;
@@ -294,13 +293,42 @@ aside {
 
   .aside__post-wrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 30vh;
   }
 
   .aside__post-wrapper-item {
-    width: 150px;
-    height: 100%;
     border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+  }
+
+  .aside__post-wrapper-item > .tip {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .aside__post-wrapper-item > .second-text {
+    font-size: 0.9rem;
+  }
+
+  .aside__post-wrapper .aside__post-wrapper-item {
+    transition: 0.5s ease;
+  }
+
+  .aside__post-wrapper-item:hover {
+    transform: scale(1.1);
+  }
+
+  .aside__post-wrapper-item:hover > .aside__post-wrapper:not(hover) {
+    filter: blur(10px);
+    transform: scale(0.9);
   }
 }

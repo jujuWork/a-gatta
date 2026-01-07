@@ -102,12 +102,30 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
     </div>
     <div class="aside__post">
         <div class="aside__post-wrapper">
-            <div class="aside__post-wrapper-item">item 1</div>
-            <div class="aside__post-wrapper-item">item 2</div>
-            <div class="aside__post-wrapper-item">item 3</div>
-            <div class="aside__post-wrapper-item">item 4</div>
-            <div class="aside__post-wrapper-item">item 5</div>
-            <div class="aside__post-wrapper-item">item 6</div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
+            <div class="aside__post-wrapper-item">
+                <p class="tip">Hover Me</p>
+                <p class="second-text">Lorem Ipsum</p>
+            </div>
         </div>
     </div>
 </aside>
