@@ -100,63 +100,15 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
     <div class="aside__title">
         <h2>Works</h2>
     </div>
-    <div class="aside__radio-inputs">
-        <label class="aside__radio">
-            <input type="radio" name="radio" checked="" />
-            <span class="aside__name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>LP Page</span>
-            </span>
-            <div class="aside__content">
-                <div>
-                    <div>
-                        LP Page
-                    </div>
-                </div>
-            </div>
-        </label>
-        <label class="aside__radio">
-            <input type="radio" name="radio" />
-            <span class="aside__name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>Home Page</span>
-            </span>
-            <div class="aside__content">
-                <div>
-                    <div>Home Page</div>
-                </div>
-            </div>
-        </label>
-
-        <label class="aside__radio">
-            <input type="radio" name="radio" />
-            <span class="aside__name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>Design</span>
-            </span>
-            <div class="aside__content">
-                <div>
-                    <div>Design</div>
-                </div>
-            </div>
-        </label>
-
-        <label class="aside__radio">
-            <input type="radio" name="radio" />
-            <span class="aside__name">
-                <span class="aside__pre-name"></span>
-                <span class="aside__pos-name"></span>
-                <span>Others</span>
-            </span>
-            <div class="aside__content">
-                <div>
-                    <div>Others</div>
-                </div>
-            </div>
-        </label>
+    <div class="aside__post">
+        <div class="aside__post-wrapper">
+            <div class="aside__post-wrapper-item">item 1</div>
+            <div class="aside__post-wrapper-item">item 2</div>
+            <div class="aside__post-wrapper-item">item 3</div>
+            <div class="aside__post-wrapper-item">item 4</div>
+            <div class="aside__post-wrapper-item">item 5</div>
+            <div class="aside__post-wrapper-item">item 6</div>
+        </div>
     </div>
 </aside>
 
