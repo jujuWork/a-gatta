@@ -1,7 +1,8 @@
 <?php
 get_header();
 
-$aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
+$aside_live_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/live.png';
+$aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/detail.png';
 ?>
 
 <main>
@@ -101,30 +102,42 @@ $aside_bg = get_template_directory_uri() . '/assets/backgrounds/sub-bg.webp';
         <h2>Works</h2>
     </div>
     <div class="aside__post">
-        <div class="aside__post-wrapper">
-            <div class="aside__post-wrapper-item">
-                <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+        <div class="aside__wrapper">
+            <div class="aside__wrapper-item">
+                <div class="aside__wrapper-item-img">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page">
+                </div>
+                <ul class="aside__wrapper-link">
+                    <li>
+                        <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                    </li>
+                    <li>
+                        <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                    </li>
+                </ul>
+                <div class="aside__wrapper-item-info">
+                    <p class="aside__wrapper-item-title">LP PAge</p>
+                </div>
             </div>
-            <div class="aside__post-wrapper-item">
+            <div class="aside__wrapper-item">
                 <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+                <p class="text">Lorem Ipsum</p>
             </div>
-            <div class="aside__post-wrapper-item">
+            <div class="aside__wrapper-item">
                 <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+                <p class="text">Lorem Ipsum</p>
             </div>
-            <div class="aside__post-wrapper-item">
+            <div class="aside__wrapper-item">
                 <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+                <p class="text">Lorem Ipsum</p>
             </div>
-            <div class="aside__post-wrapper-item">
+            <div class="aside__wrapper-item">
                 <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+                <p class="text">Lorem Ipsum</p>
             </div>
-            <div class="aside__post-wrapper-item">
+            <div class="aside__wrapper-item">
                 <p class="tip">Hover Me</p>
-                <p class="second-text">Lorem Ipsum</p>
+                <p class="text">Lorem Ipsum</p>
             </div>
         </div>
     </div>
