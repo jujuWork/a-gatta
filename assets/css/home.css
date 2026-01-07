@@ -398,12 +398,11 @@ aside {
     align-content: center;
   }
 
-  .aside__wrapper-item-info,
-  .aside__wrapper-link {
-    opacity: 0;
-  }
-
   .aside__wrapper-link-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
     transition: 0.4s ease;
   }
 
