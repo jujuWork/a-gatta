@@ -107,18 +107,22 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                 <div class="aside__wrapper-item-img">
                     <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page">
                 </div>
-                <div class="aside__wrapper-link-container">
-                    <ul class="aside__wrapper-link">
-                        <li>
+                <ul class="aside__wrapper-link">
+                    <li>
+                        <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
-                        </li>
-                        <li>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
-                        </li>
-                    </ul>
-                    <div class="aside__wrapper-item-info">
-                        <p class="aside__wrapper-item-title">LP Page</p>
-                    </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="aside__wrapper-item-info">
+                    <p>
+                        <a href="#">LP ページ</a>
+                    </p>
                 </div>
             </div>
             <div class="aside__wrapper-item">

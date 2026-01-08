@@ -296,10 +296,10 @@ aside {
 
   .aside__wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 15px;
     height: 40vh;
+    width: 100%;
   }
 
   .aside__wrapper-item {
@@ -316,6 +316,7 @@ aside {
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.3s ease-in-out;
+    background: transparent;
   }
 
   .aside__wrapper .aside__wrapper-item {
@@ -328,7 +329,7 @@ aside {
   }
 
   .aside__wrapper:hover > .aside__wrapper-item:not(:hover) {
-    filter: blur(10px);
+    filter: blur(2px);
     transform: scale(0.9);
   }
 
@@ -364,12 +365,14 @@ aside {
   }
 
   .aside__wrapper-link li {
-    background: var(--background-color);
+    background: rgba(255, 255, 255, 0.7);
     display: flex;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    position: relative;
+    box-shadow: inset 0 0 0 0 var(--hover-color);
   }
 
   /* LINK ICONS */
@@ -380,33 +383,32 @@ aside {
     transition: 0.5s ease;
   }
 
-  .aside__wrapper-link li img:hover {
+  /* .aside__wrapper-link li img:hover {
     transform: scale(1.1);
-  }
+  } */
 
   .aside__wrapper-item-info {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 4em;
-    background-color: var(--background-color);
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: inset 0 0 0 0 var(--hover-color);
   }
 
-  .aside__wrapper-item-title {
+  .aside__wrapper-item-info > p {
     font-size: 1.5rem;
     height: 100%;
     align-content: center;
+    transition: 0.7s ease;
   }
 
-  .aside__wrapper-link-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    opacity: 1;
-    transition: 0.4s ease;
+  .aside__wrapper-link li:hover {
+    box-shadow: inset 0 -100px 0 0 var(--hover-color);
   }
 
-  .aside__wrapper-link-container:hover {
-    opacity: 1;
+  .aside__wrapper-item-info p:hover {
+    color: white;
+    box-shadow: inset 300px 0 0 0 var(--hover-color);
   }
 }
