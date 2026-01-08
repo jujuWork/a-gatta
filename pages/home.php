@@ -7,34 +7,17 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
 ?>
 
 <main>
-    <div class="main__flip-card">
-        <div class=" main__flip-card-inner">
-            <div class="main__flip-card-front">
-                <div class="main__flip-title">
-                    <p class="main__flip-title-text-front">
-                        Sponago <br>
-                        Top <br>
-                        Team <br>
-                    </p>
-                </div>
-            </div>
-            <div class="main__flip-card-back">
-                <div class="main__flip-title">
-                    <div class="main__flip-title-text-back">
-                        <p>
-                            <hr class="horizontal-right">
-                            <span>スポナゴA型就労継続支援のポータルサイト</span>
-                            <hr class="horizontal-left">
-                        </p>
-                        <p>
-                            「共創」をテーマにこのサイトは運営しています。 <br><br>
-                            互いに助け合い、寄り添って問題解決・改善を行いましょう。 <br><br>
-                            サイトに関して不便なことがありましたら、支援員にご相談ください。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="main__card-3d">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </main>
 
