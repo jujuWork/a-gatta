@@ -1,6 +1,7 @@
 <?php
 get_header();
 
+$aside_bg = get_template_directory_uri() . '/assets/backgrounds/aside/aside-bg.webp';
 $aside_live_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/live.png';
 $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/detail.png';
 ?>
@@ -98,6 +99,9 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
 </article>
 
 <aside>
+    <div class="aside__sub-bg">
+        <img src="<?php echo esc_url($aside_bg) ?>" alt="aside bg" loading="lazy">
+    </div>
     <div class="aside__title">
         <h2>Works</h2>
     </div>

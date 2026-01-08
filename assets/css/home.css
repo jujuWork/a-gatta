@@ -270,6 +270,16 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px solid blue;
+
+  .aside__sub-bg {
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
   /* ASIDE TITLE */
   .aside__title {
@@ -300,6 +310,7 @@ aside {
     flex-wrap: wrap;
     height: 40vh;
     width: 100%;
+    margin-bottom: 2em;
   }
 
   .aside__wrapper-item {
@@ -382,10 +393,6 @@ aside {
     fill: white;
     transition: 0.5s ease;
   }
-
-  /* .aside__wrapper-link li img:hover {
-    transform: scale(1.1);
-  } */
 
   .aside__wrapper-item-info {
     position: absolute;
