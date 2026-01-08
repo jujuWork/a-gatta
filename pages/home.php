@@ -110,12 +110,12 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                 <ul class="aside__wrapper-link">
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
                     </li>
                 </ul>
@@ -127,17 +127,17 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/HP.webp') ?>" alt="LP Page">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/HP.png') ?>" alt="HP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
                     </li>
                 </ul>
@@ -149,17 +149,17 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
                     </li>
                 </ul>
@@ -171,17 +171,17 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
                     </li>
                 </ul>
@@ -193,17 +193,17 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live">
+                            <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details">
+                            <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
                     </li>
                 </ul>
