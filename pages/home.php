@@ -8,7 +8,9 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
 
 <main>
     <div class="main__card-3d">
-        <div></div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="sample1">
+        </div>
         <div></div>
         <div></div>
         <div></div>

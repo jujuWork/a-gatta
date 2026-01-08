@@ -24,7 +24,6 @@ main {
     position: absolute;
     width: var(--card-width);
     height: var(--card-height);
-    /* background-color: var(--secondary-color); */
     border: 1px solid var(--hover-color);
     border-radius: 0.5rem;
     top: 50%;
@@ -33,6 +32,13 @@ main {
     animation: animateBrightness 20s linear infinite;
     transition: 600ms;
     will-change: transform, filter;
+  }
+
+  /* card 3d Image-bg */
+  .main__card-3d div > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
   }
 
   .main__card-3d:hover {
@@ -109,7 +115,7 @@ main {
     filter: brightness(1);
   }
   50% {
-    filter: brightness(0.1);
+    filter: brightness(0.5);
   }
   90% {
     filter: brightness(1);
