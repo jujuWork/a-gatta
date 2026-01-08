@@ -1,7 +1,7 @@
 <?php
 get_header();
 
-$aside_bg = get_template_directory_uri() . '/assets/backgrounds/aside/aside-bg.webp';
+$aside_bg = get_template_directory_uri() . '/assets/backgrounds/aside-bg.webp';
 $aside_live_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/live.png';
 $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/detail.png';
 ?>
@@ -99,9 +99,6 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
 </article>
 
 <aside>
-    <div class="aside__sub-bg">
-        <img src="<?php echo esc_url($aside_bg) ?>" alt="aside bg" loading="lazy">
-    </div>
     <div class="aside__title">
         <h2>Works</h2>
     </div>
@@ -109,7 +106,7 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
         <div class="aside__wrapper">
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.webp') ?>" alt="LP Page">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="LP Page">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
@@ -153,7 +150,7 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/flyer.png') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
@@ -169,13 +166,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                 </ul>
                 <div class="aside__wrapper-item-info">
                     <p>
-                        <a href="#">デサイン</a>
+                        <a href="#">チラシ</a>
                     </p>
                 </div>
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/brand.png') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
@@ -197,7 +194,7 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
             </div>
             <div class="aside__wrapper-item">
                 <div class="aside__wrapper-item-img">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/sample1.webp') ?>" alt="LP Page" loading="lazy">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/illustrator.png') ?>" alt="LP Page" loading="lazy">
                 </div>
                 <ul class="aside__wrapper-link">
                     <li>
