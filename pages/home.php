@@ -10,16 +10,64 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
     <div class="main__card-3d">
         <div>
             <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/HP.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/brand.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/design.webp') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/flyer.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/illustrator.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/HP.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/flyer.png') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
+        <div>
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/design.webp') ?>" alt="sample1">
+            <span class="main__card-3d-link">
+                <a href="#">More Info</a>
+            </span>
+        </div>
     </div>
 </main>
 
@@ -98,11 +146,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                         <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Live</p>
                     </li>
                     <li>
                         <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Details</p>
                     </li>
                 </ul>
                 <div class="aside__wrapper-item-info">
@@ -120,11 +170,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                         <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Live</p>
                     </li>
                     <li>
                         <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Details</p>
                     </li>
                 </ul>
                 <div class="aside__wrapper-item-info">
@@ -142,11 +194,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                         <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Live</p>
                     </li>
                     <li>
                         <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Details</p>
                     </li>
                 </ul>
                 <div class="aside__wrapper-item-info">
@@ -164,11 +218,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                         <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Live</p>
                     </li>
                     <li>
                         <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Details</p>
                     </li>
                 </ul>
                 <div class="aside__wrapper-item-info">
@@ -186,11 +242,13 @@ $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/l
                         <a href="#">
                             <img src="<?php echo esc_url($aside_live_icon) ?>" alt="Live" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Live</p>
                     </li>
                     <li>
                         <a href="#">
                             <img src="<?php echo esc_url($aside_detail_icon) ?>" alt="Details" loading="lazy">
                         </a>
+                        <p class="aside__wrapper-link-text">Details</p>
                     </li>
                 </ul>
                 <div class="aside__wrapper-item-info">
