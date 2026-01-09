@@ -17,7 +17,7 @@
                         <a href="<?php echo esc_url(home_url('/Production')); ?>">制作実績</a>
                     </button>
                     <div class="dropDown__content">
-                        <a href="#" class="dropDown__link">
+                        <a href="<?php echo esc_url(home_url('/landing-page')); ?>" class="dropDown__link" target="_blank">
                             <span>LPページ</span>
                         </a>
                         <a href="#" class="dropDown__link">
