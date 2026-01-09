@@ -142,13 +142,13 @@ main {
 }
 
 @keyframes animateBrightness {
-  10% {
+  0% {
     filter: brightness(1);
   }
   50% {
-    filter: brightness(0.1);
+    filter: brightness(0.8);
   }
-  90% {
+  100% {
     filter: brightness(1);
   }
 }
