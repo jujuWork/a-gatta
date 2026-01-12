@@ -245,8 +245,21 @@
   </li>
 ```
 
+2. 新しいページを作成する手順は以下の通りです。
 
+- ページテンプレートを作成する
+```
+   <?php /* Template Name: Landing Page */ ?>
+```
 
+- WordPressの管理画面に移動します。
+- 新規ページを追加し、タイトルを「Landing Page」に設定してください。
+-  右側の設定欄にある「テンプレート」をクリックします。「デフォルトテンプレート」の中から「Landing Page」を選択してください。
+-   設定後、ページを公開します。
 
-
-
+3. コード内のリンクを修正する
+- リンクを以下のように編集してください。
+```
+<a href="<?php echo esc_url(home_url('/landing-page')); ?>" class="dropDown__link" target="_blank">
+```
+- '/landing-page' は、ページ作成後にWordPressで設定されるスラッグになります。
