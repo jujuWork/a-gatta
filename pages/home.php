@@ -1,5 +1,5 @@
 <?php
-get_header();
+// get_header();
 
 $aside_bg = get_template_directory_uri() . '/assets/backgrounds/aside-bg.webp';
 $aside_live_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/live.png';

@@ -56,4 +56,9 @@ function my_styles()
 add_action('wp_enqueue_scripts', 'my_styles');
 
 
+add_action('wp_enqueue_scripts', function() {
+    global $wp_styles;
+    error_log(print_r($wp_styles->registered, true));
+});
+
 ////////////////////////// JAVASCRIPTS //////////////////////////
