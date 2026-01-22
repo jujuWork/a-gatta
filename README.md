@@ -64,11 +64,6 @@
 ---
 
 # CSS コーディング ( ルール )
-### まずはHTMLを作成しましょう
-- 多くのデザイナーは、HTMLを作成するのと同時にCSSも作成します。一見すると理にかなっているように思えますが、実は先にHTMLのモックアップをすべて作成したほうが、結果的に時間を節約できます。
-  この方法の理由は、サイトのレイアウトを構成する要素は把握できていても、どのようなCSSが必要になるかは、デザインを進めながらでないと見えてこないためです。先にHTMLレイアウトを完成させることで、
-  ページ全体を俯瞰して確認でき、CSSをより全体的・上から考える形で設計できるようになります。
-
 ### JavaScriptよりもCSSを優先しましょう
 - JavaScriptで実現しようとしていることが、CSSだけで対応できる場合は、CSSを使うようにします。JavaScriptを追加する前、また追加する場合でも、まずはスタイルの表現はCSSに任せ、
   JavaScriptはトリガーや副作用の制御などに限定できないかを検討することが大切です。JavaScriptはエラーに対して寛容ではないため、問題が起きると大きな影響につながる可能性があります。
@@ -102,21 +97,6 @@
       color: blue;
     }
 
-```
-
-4. CSS のネストを使う場合は、内容が分かりやすくなるように、ネストは深くしすぎず、2〜3 階層くらいにするのがベストだと思います。
-
-```
-  例：
-  header {
-      nav {
-        color: white;
-      }
-
-      .city {
-        color: black;
-      }
-  }
 ```
 
 5. カラー管理は、短縮の変数を使うと便利です。
@@ -205,6 +185,7 @@
     font-style: normal;
     font-display: swap;
   }
+
   /* Main TEXT FONT */
   @font-face {
     font-family: "Noto_Sans";
@@ -302,6 +283,7 @@ body #container .someclass ul li {}
 <a href="<?php echo esc_url(home_url('/landing-page')); ?>" class="dropDown__link" target="_blank">
 ```
 - '/landing-page' は、ページ作成後にWordPressで設定されるスラッグになります。
+
 
 
 
