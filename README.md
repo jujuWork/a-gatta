@@ -246,6 +246,17 @@ div.header {}
 このようにすることで、コード量を減らすことができ、パフォーマンスも向上します。
 
 また、再利用性が高まり、詳細度も抑えられるため、より管理しやすいCSSになります。
+
+12. 余分なセレクタは避けましょう
+   CSSでは、知らないうちに余分なセレクタを追加してしまい、スタイルシートが無駄に複雑になることがあります。よくある例のひとつが、リスト要素に対する指定です。
+```
+body #container .someclass ul li {}
+```
+この場合、実際には次の指定だけで十分です。
+```
+.someclass li {}
+```
+
 ---
 
 ## PHP
@@ -283,4 +294,5 @@ div.header {}
 <a href="<?php echo esc_url(home_url('/landing-page')); ?>" class="dropDown__link" target="_blank">
 ```
 - '/landing-page' は、ページ作成後にWordPressで設定されるスラッグになります。
+
 
