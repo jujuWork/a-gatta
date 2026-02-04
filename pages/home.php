@@ -4,12 +4,13 @@
 $aside_bg = get_template_directory_uri() . '/assets/backgrounds/aside-bg.webp';
 $aside_live_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/live.png';
 $aside_detail_icon = get_template_directory_uri() . '/assets/backgrounds/aside/link-icons/detail.png';
+$test = get_template_directory_uri();
 ?>
 
 <main>
     <div class="main__card-3d">
         <div>
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="sample1">
+            <img src="<?php echo esc_url('$test' . '/assets/backgrounds/aside/wrapper-item/LP.png') ?>" alt="sample1">
             <span class="main__card-3d-link">
                 <a href="#lp">More Info</a>
             </span>
