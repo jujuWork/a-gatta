@@ -42,7 +42,8 @@ li {
 /**************** MAIN FONT ****************/
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.woff2") format("woff2"),
+  src:
+    url("./assets/fonts/Roboto-Regular.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -52,9 +53,16 @@ li {
 /**************** LOGO FONT ****************/
 @font-face {
   font-family: "Arizonia";
-  src: url("./assets/fonts/Arizonia-Regular.woff2") format("woff2"),
+  src:
+    url("./assets/fonts/Arizonia-Regular.woff2") format("woff2"),
     url("./assets/fonts/Arizonia-Regular.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    display: none;
+  }
 }
